@@ -7,7 +7,6 @@ const Pet = (props) => {
   if (images.length) {
     hero = images[0];
   }
-  // console.log(props);
   return (
     <Link to={`/details/${id}`} className="pet">
       <div className="image-container">
@@ -20,5 +19,6 @@ const Pet = (props) => {
     </Link>
   );
 };
+/*  */ 
 
 export default Pet;
